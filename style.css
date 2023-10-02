@@ -58,18 +58,17 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 nav{
     background-color: var(--cor5);
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 7px 9px rgba(0, 0, 0, 0.322);
 }
 nav > a{
     color: var(--cor1);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5;
@@ -77,6 +76,7 @@ nav > a{
 nav > a:hover{
     background-color: var(--cor3);
     color: var(--cor5);
+    padding: 3px;
 }
 
 main{
